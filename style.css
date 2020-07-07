@@ -15,3 +15,41 @@ ol.carousel-indicators .active {
   background-image: linear-gradient(to right, #ff9c35, #ffd019);
   width: 45px;
 }
+
+.card,
+.card-box-1,
+.card-box-2,
+.card-box-3 {
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 1px lightgray;
+}
+
+.card-box-1,
+.card-box-2,
+.card-box-3 {
+  padding: 80px 60px;
+}
+.card-box-1 {
+  margin-right: 20px;
+  border-radius: 5px 10px 5px 35px;
+}
+.card-box-2,
+.card-box-3 {
+  margin: 20px 0;
+  border-radius: 5px 10px 35px;
+}
+
+.categ {
+  position: relative;
+}
+.categ::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+  width: 120px;
+  height: 8px;
+  background-image: linear-gradient(to right, #ff9c35, #ffd019);
+  border-radius: 20px;
+}
