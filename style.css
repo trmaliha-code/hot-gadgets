@@ -1,0 +1,17 @@
+.container {
+  margin-bottom: 100px;
+}
+.menu {
+  margin: 30px auto 0;
+}
+
+ol.carousel-indicators li {
+  background-color: #cecece;
+  width: 16px;
+  height: 12px;
+  border-radius: 20px;
+}
+ol.carousel-indicators .active {
+  background-image: linear-gradient(to right, #ff9c35, #ffd019);
+  width: 45px;
+}
